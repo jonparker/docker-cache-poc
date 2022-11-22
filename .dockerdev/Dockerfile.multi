@@ -1,0 +1,12 @@
+ARG NODE_VERSION=16
+FROM node:$NODE_VERSION-alpine as base
+
+# Create a directory for the app code
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY package.json
+COPY package-lock.json
+
+RUN npm ci
