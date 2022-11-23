@@ -1,4 +1,4 @@
 export default hello = () => {
-  console.log("Hello World");
+  console.log("Hey World");
   console.log("Bye World");
 };
