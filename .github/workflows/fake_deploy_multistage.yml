@@ -69,6 +69,6 @@ jobs:
         with:
           context: .
           file: .dockerdev/Dockerfile.multi
-          target: deploy
+          #target: deploy
           push: false
           tags: ${{ steps.prep.outputs.tagged_image }}
