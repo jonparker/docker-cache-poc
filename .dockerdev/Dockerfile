@@ -10,3 +10,5 @@ COPY package.json .
 COPY package-lock.json .
 
 RUN npm ci
+
+RUN npm i cypress
