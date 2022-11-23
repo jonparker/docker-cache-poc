@@ -13,4 +13,6 @@ RUN npm ci
 
 RUN npm i cypress
 
+RUN sleep 20
+
 COPY *.js .
