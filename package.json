@@ -1,0 +1,23 @@
+{
+  "name": "docker-cache-poc",
+  "version": "1.0.0",
+  "description": "Docker Layer Caching with GH Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonparker/docker-cache-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonparker/docker-cache-poc/issues"
+  },
+  "homepage": "https://github.com/jonparker/docker-cache-poc#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
